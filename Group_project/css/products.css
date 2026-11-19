@@ -33,8 +33,6 @@ button {
   cursor: pointer;
 }
 
-/* HEADER */
-
 .top-bar {
   background: var(--blue);
   color: white;
@@ -107,8 +105,6 @@ nav a:hover {
   font-size: 17px;
 }
 
-/* SHOP BANNER */
-
 .shop-banner {
   background: var(--light);
   padding: 65px 7%;
@@ -119,16 +115,12 @@ nav a:hover {
   margin-bottom: 12px;
 }
 
-/* SHOP LAYOUT */
-
 .shop-layout {
   padding: 55px 7%;
   display: grid;
   grid-template-columns: 230px 1fr;
   gap: 40px;
 }
-
-/* FILTERS */
 
 .filters {
   display: flex;
@@ -155,15 +147,11 @@ nav a:hover {
   width: 100%;
 }
 
-/* PRODUCTS HEADING */
-
 .shop-heading {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
 }
-
-/* PRODUCT GRID */
 
 .shop-products .product-grid {
   display: grid;
@@ -240,8 +228,6 @@ nav a:hover {
   color: white;
 }
 
-/* FOOTER */
-
 .footer {
   background: #17212b;
   color: white;
@@ -276,8 +262,6 @@ nav a:hover {
   padding-top: 20px;
   text-align: center;
 }
-
-/* SHOPPING CART */
 
 .cart-overlay {
   position: fixed;
@@ -341,8 +325,6 @@ nav a:hover {
   width: 100%;
   margin-top: 25px;
 }
-
-/* RESPONSIVE DESIGN */
 
 @media(max-width: 1000px) {
   .shop-products .product-grid {
